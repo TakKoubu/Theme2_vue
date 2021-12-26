@@ -10,7 +10,7 @@ const app = Vue.createApp({
       this.text = event.target.value;
     },
     enterText(){
-      this.enteredText = this.enterText;
+      this.enteredText = this.text;
     },
   }
 });
